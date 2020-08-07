@@ -1,0 +1,52 @@
+.red-text {
+  color: red;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: justify;
+}
+
+.flex-row {
+  margin: 0;
+  width: 100%;
+  font-size: 0.85em;
+  color: rgba(66, 66, 66, 1);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frm-blck {
+  width: 40%;
+  background-color: #bdf1f6;
+  border-radius: 20px;
+  padding: 2rem 3rem;
+}
+
+.frm-wrp {
+  width: 100%;
+  margin: 18px 0;
+}
+
+.frm-wrp input {
+  width: 100%;
+  padding: 18px 12px;
+  margin: 16px 0;
+  border: none;
+  outline: none;
+  background-color: #f2fcfc;
+  border-bottom: 1px solid #8fbaf3;
+}
+
+.frm-wrp input[type="checkbox"] {
+  width: 10%;
+  border: none;
+}
+
+.frm-wrp input[type="submit"] {
+  width: 150px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #0245a3;
+}

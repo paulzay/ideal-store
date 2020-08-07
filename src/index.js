@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import AuthProvider from "./components/provider/AuthProvider";
 import "./index.css";
 import App from "./components/app/App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <AuthProvider>
+      <App />
+    </AuthProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );
