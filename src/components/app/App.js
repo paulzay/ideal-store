@@ -5,6 +5,7 @@ import Footer from "../footer/Footer";
 import CartView from "../cartView/CartView";
 import NavBar from "../navBar/NavBar";
 import ProductDetails from "../productDetails/ProductDetails";
+import UserProfile from "../userProfile/UserProfile";
 import Shop from "../shop/Shop";
 
 class App extends Component {
@@ -19,6 +20,10 @@ class App extends Component {
             render={(props) => <ProductDetails {...props} />}
           />
           <Route path="/cart" render={(props) => <CartView {...props} />} />
+          <Route
+            path="/user-profile"
+            render={(props) => <UserProfile {...props} />}
+          />
           <Footer />
         </BrowserRouter>
       </React.Fragment>
