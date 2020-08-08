@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { withRouter } from "react-router-dom";
 import "../SignUp-SignIn.css";
 
-import { authContext } from "../provider/AuthProvider";
+import { authContext } from "../../providers/authProvider/AuthProvider";
 
 const SignUp = (props) => {
   const { inputs, errors, handleInputsChange, handleSignUp } = useContext(

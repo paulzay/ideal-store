@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "../SignUp-SignIn.css";
 
-import { authContext } from "../provider/AuthProvider";
+import { authContext } from "../../providers/authProvider/AuthProvider";
 
 const SignIn = () => {
   const { inputs, errors, handleInputsChange, handleSignIn } = useContext(

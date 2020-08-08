@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import authMethods from "../auth/authMethods";
+import authMethods from "../../components/auth/authMethods";
 
 export const authContext = React.createContext();
 

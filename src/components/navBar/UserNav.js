@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-import { authContext } from "../provider/AuthProvider";
+import { authContext } from "../../providers/authProvider/AuthProvider";
 
 const UserNav = () => {
   const { token, handleSignOut } = useContext(authContext);
