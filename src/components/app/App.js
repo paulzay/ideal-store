@@ -10,6 +10,7 @@ import NavBar from "../navBar/NavBar";
 import ProductDetails from "../productDetails/ProductDetails";
 import UserProfile from "../userProfile/UserProfile";
 import Shop from "../shop/Shop";
+import Checkout from "../checkout/Checkout";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           render={(props) => <ProductDetails {...props} />}
         />
         <Route path="/cart" render={(props) => <CartView {...props} />} />
+        <Route path="/checkout" render={(props) => <Checkout {...props} />} />
         <Route
           path="/user-profile"
           render={(props) => <UserProfile {...props} />}
