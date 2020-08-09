@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ideal Store
 
-## Available Scripts
+E-commerce platform for computers and their accessories
 
-In the project directory, you can run:
+## Built With
 
-### `yarn start`
+- React
+- Firebase
+- Sass
+- Bootstrap
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Live Demo
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[live demo](https://paulzay.github.io/ideal-store/)
 
-### `yarn test`
+## Screenshots
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/29974825/89732205-e65ab100-da55-11ea-8e47-70350a056e8c.png)
+![image](https://user-images.githubusercontent.com/29974825/89732248-1a35d680-da56-11ea-9da2-a3e952568061.png)
 
-### `yarn build`
+# Getting Started 🚀
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+These instructions will get you a copy of the project up and running on your local machine.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+From your command line, first clone the project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clone this repository
+$ git clone https://github.com/paulzay/ideal-store
 
-### `yarn eject`
+# Go into the repository
+$ cd ideal-store
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# install the dependencies with this command
+$ yarn install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Run the project
+$ yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## CONTRIBUTORS
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+👤 **Paul Ogolla**
 
-## Learn More
+- Github: [@paulzay](https://github.com/paulzay)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Bori**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Github: [@bori7](https://github.com/bori7)
 
-### Code Splitting
+👤 **Oyejideoye Tunji**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Github: [@oyejideoyetunji](https://github.com/oyejideoyetunji)
 
-### Analyzing the Bundle Size
+👤 **Alaneme Ikenna Raphael**
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- Github: [@RalphLincoln](https://github.com/RalphLincoln)
 
-### Making a Progressive Web App
+## 🤝 Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Contributions, issues and feature requests are welcome!
 
-### Advanced Configuration
+Feel free to check the [issues page](https://github.com/paulzay/ideal-store/issues).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Show your support
 
-### Deployment
+Give a ⭐️ if you like this project!
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## 📝 License
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+This project is [MIT](lic.url) licensed.
