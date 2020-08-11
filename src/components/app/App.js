@@ -18,6 +18,7 @@ const App = () => {
       <BrowserRouter>
         <NavBar />
         <Route path="/" exact render={(props) => <Shop {...props} />} />
+        <Route path="/ideal-store" render={(props) => <Shop {...props} />} />
         <Route path="/signup" render={(props) => <SignUp {...props} />} />
         <Route path="/signin" render={(props) => <SignIn {...props} />} />
         <Route
