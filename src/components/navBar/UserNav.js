@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { authContext } from "../../providers/authProvider/AuthProvider";
+import avatar from "../../assets/images/avatar.png";
 
 const UserNav = () => {
   const { token, handleSignOut } = useContext(authContext);
@@ -20,11 +21,7 @@ const UserNav = () => {
         <>
           <button onClick={handleSignOut}>Sign Out</button>
           <Link to="/user-profile">
-            <img
-              className="nav-link-avatar"
-              src="avatar.png"
-              alt="sample avatar"
-            />
+            <img className="nav-link-avatar" src={avatar} alt="sample avatar" />
           </Link>
         </>
       )}
