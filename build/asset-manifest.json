@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ideal-store/static/css/main.f95d0170.chunk.css",
+    "main.js": "/ideal-store/static/js/main.37451d41.chunk.js",
+    "main.js.map": "/ideal-store/static/js/main.37451d41.chunk.js.map",
+    "runtime-main.js": "/ideal-store/static/js/runtime-main.5010f9c9.js",
+    "runtime-main.js.map": "/ideal-store/static/js/runtime-main.5010f9c9.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/ideal-store/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.95e9ac3e.chunk.js": "/ideal-store/static/js/2.95e9ac3e.chunk.js",
+    "static/js/2.95e9ac3e.chunk.js.map": "/ideal-store/static/js/2.95e9ac3e.chunk.js.map",
+    "index.html": "/ideal-store/index.html",
+    "precache-manifest.18f3d4ec8e46ec92596c6390637098ad.js": "/ideal-store/precache-manifest.18f3d4ec8e46ec92596c6390637098ad.js",
+    "service-worker.js": "/ideal-store/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/ideal-store/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.f95d0170.chunk.css.map": "/ideal-store/static/css/main.f95d0170.chunk.css.map",
+    "static/js/2.95e9ac3e.chunk.js.LICENSE.txt": "/ideal-store/static/js/2.95e9ac3e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5010f9c9.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.95e9ac3e.chunk.js",
+    "static/css/main.f95d0170.chunk.css",
+    "static/js/main.37451d41.chunk.js"
+  ]
+}
